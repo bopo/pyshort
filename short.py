@@ -24,4 +24,5 @@ def shortByHex(url):
     
     return _output
 
-print shortByHex("password")
+if __name__ == '__main__': 
+    print shortByHex("password")
